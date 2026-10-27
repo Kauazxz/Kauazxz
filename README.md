@@ -1,41 +1,46 @@
-# Kauã Araujo de Souza
+# Hi, I'm Kauã 👋
 
-Desenvolvedor full-stack na Grande Vitória (ES). Crio **sites**, **lojas virtuais**,
-**automações** e **aplicativos web** — do desenho ao ar, com design e deploy
-fazendo parte do pacote.
+**Full-stack developer** (Next.js · React · TypeScript · PostgreSQL) from Brazil, open to **remote roles and relocation**.
+I ship production systems end to end — data model, back end, payments, front end and deploy.
 
-🌐 **[kauaaraujo.com.br](https://kauaaraujo.com.br)** · 💼 [LinkedIn](https://www.linkedin.com/in/kau%C3%A3-araujo-de-souza)
-
----
-
-### O que já construí
-
-**🦈 [Tubarões UVV](https://tubaroesuvv.com.br)** — loja oficial da atlética, no ar e
-vendendo de verdade. Checkout sem cadastro com PIX e cartão (Mercado Pago), pré-venda
-com demanda consolidada por tamanho, reserva de estoque transacional, webhook
-idempotente e painel onde o dono controla tudo — inclusive o que cada administrador
-pode ver e editar.
-
-**🤖 OrganizaApp** — organizador pessoal com um diferencial: servidor **MCP próprio
-com OAuth 2.1**, que deixa o ChatGPT e o Claude agirem dentro do app (criar tarefa,
-marcar compromisso, consultar finanças) sem receber nenhuma senha.
-
-**🏗️ [VistoPred](https://vistopred.com.br)** — site institucional da empresa de
-inspeção predial: blog em Markdown, tema claro/escuro e logo 3D interativa.
-
-**🦆 [PatoJogo](https://patojogo.vercel.app)** — quiz de patologias das construções
-onde toda regra de jogo mora no servidor: cronômetro, correção e pontuação são
-decididos no banco, e o navegador só exibe.
-
-### Como eu trabalho
-
-Next.js · React · TypeScript · Astro · Supabase/PostgreSQL (RLS em tudo) ·
-Cloudflare Workers e Pages · Mercado Pago · integrações com IA (MCP)
-
-O que me interessa não é a vitrine — é o que acontece **depois do botão**:
-transação, permissão, auditoria e o sistema continuando de pé quando algo dá errado.
+🌐 **[kauaaraujo.com.br/en](https://kauaaraujo.com.br/en/)** · 📄 **[Résumé (PDF)](https://kauaaraujo.com.br/kaua-araujo-cv.pdf)** · 💼 [LinkedIn](https://www.linkedin.com/in/kaua-araujo-souza/) · ✉️ araujokaua8@gmail.com
 
 ---
 
-📫 Precisa de um site, uma loja, uma automação ou um sistema?
-**[Fale comigo](https://kauaaraujo.com.br/#contato)**
+### What I've built
+
+**🦈 [Tubarões UVV](https://tubaroesuvv.com.br)** — e-commerce **in production, processing real payments** for a university athletics club.
+Guest checkout with PIX and card, transactional stock reservation (`SELECT … FOR UPDATE`), an idempotent HMAC-verified payment webhook,
+and a 17-module admin panel with per-user permissions and an audit log.
+
+**🤖 OrganizaApp** — personal organizer with its own **MCP server and OAuth 2.1 authorization server**, so ChatGPT and Claude can act
+inside the app (create a task, book an event, query finances) without ever receiving a password. PKCE, dynamic client registration,
+refresh-token rotation with reuse detection, 142 automated tests.
+
+**📉 InovaApps 2026 hackathon** — churn-risk platform built in 48 hours with a team of 4: configurable customer health score,
+risk dashboard and an alert queue ordered by revenue at stake. I owned the scoring engine, dashboard and deploy.
+
+**🦆 [PatoJogo](https://patojogo.vercel.app)** — educational quiz where every game rule lives on the server: timer, grading and scoring
+are decided in PostgreSQL (17 tables with Row Level Security), the browser only renders.
+
+**🏗️ [VistoPred](https://vistopred.com.br)** — company website rebuilt from WordPress to Astro + Svelte during my internship.
+
+### Stack
+
+`TypeScript` `Next.js` `React` `Node.js` `PostgreSQL` `Supabase` `Python` `FastAPI` `Astro` `Tailwind CSS`
+`Docker` `GitHub Actions` `Vercel` `Cloudflare` `OAuth 2.1` `MCP`
+
+What I care about isn't the storefront — it's what happens **after the button**: transactions, permissions, audit trails,
+and the system staying up when something goes wrong.
+
+---
+
+<details>
+<summary>🇧🇷 Em português</summary>
+
+Desenvolvedor full-stack na Grande Vitória (ES). Crio **sites**, **lojas virtuais**, **automações** e **aplicativos web** —
+do desenho ao ar, com design e deploy fazendo parte do pacote.
+
+Precisa de um site, uma loja, uma automação ou um sistema? **[Fale comigo](https://kauaaraujo.com.br/#contato)**.
+
+</details>
