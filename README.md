@@ -25,10 +25,18 @@ are decided in PostgreSQL (17 tables with Row Level Security), the browser only 
 
 **🏗️ [VistoPred](https://vistopred.com.br)** — company website rebuilt from WordPress to Astro + Svelte during my internship.
 
+### Open source
+
+| Project | Stack | What it does |
+| --- | --- | --- |
+| **[mcp-oauth-starter](https://github.com/Kauazxz/mcp-oauth-starter)** | TypeScript · Hono · MCP SDK | Remote MCP server protected by its own OAuth 2.1 authorization server: PKCE (S256), dynamic client registration, audience-bound tokens, refresh-token rotation with reuse detection |
+| **[hookrelay](https://github.com/Kauazxz/hookrelay)** | Go (standard library only) | Webhook gateway that verifies HMAC signatures, drops re-deliveries and forwards events with retries, backoff and a dead-letter queue |
+| **[churn-radar](https://github.com/Kauazxz/churn-radar)** | Python · FastAPI · scikit-learn | Customer health score and churn-risk queue ordered by revenue at stake, with explainable factors and weight calibration |
+
 ### Stack
 
 `TypeScript` `Next.js` `React` `Node.js` `PostgreSQL` `Supabase` `Python` `FastAPI` `Astro` `Tailwind CSS`
-`Docker` `GitHub Actions` `Vercel` `Cloudflare` `OAuth 2.1` `MCP`
+`Go` `Docker` `GitHub Actions` `Vercel` `Cloudflare` `OAuth 2.1` `MCP`
 
 What I care about isn't the storefront — it's what happens **after the button**: transactions, permissions, audit trails,
 and the system staying up when something goes wrong.
